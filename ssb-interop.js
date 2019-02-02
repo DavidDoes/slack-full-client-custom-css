@@ -10,7 +10,7 @@ const allowedChildWindowEventMethod = [
   'windowWithTokenDidChangeGeometry',
   'windowWithTokenBecameKey',
   'windowWithTokenResignedKey',
-  'windowWithTokenWillClose',
+  'windowWithTokenWillClose'
 ];
 
 if (window.location.href !== 'about:blank') {
@@ -21,7 +21,7 @@ if (window.location.href !== 'about:blank') {
     //tslint:disable-next-line:no-console max-line-length
     const warn = () =>
       console.warn(
-        `Deprecated: direct access to global object 'parentInfo' will be disallowed. 'parentWebContentsId' will be available until new interface is ready.`,
+        `Deprecated: direct access to global object 'parentInfo' will be disallowed. 'parentWebContentsId' will be available until new interface is ready.`
       );
     Object.defineProperty(window, 'parentInfo', {
       get: () => {
@@ -30,49 +30,42 @@ if (window.location.href !== 'about:blank') {
           get webContentsId() {
             warn();
             return parentWebContentsId;
-          },
+          }
         };
-      },
+      }
     });
   }
 
   const { ipcRenderer, remote } = require('electron');
 
-  ipcRenderer.on(
-    'SLACK_NOTIFY_CHILD_WINDOW_EVENT',
-    (event, method, ...args) => {
-      try {
-        if (!TSSSB || !TSSSB[method])
-          throw new Error('Webapp is not fully loaded to execute method');
-        if (!allowedChildWindowEventMethod.includes(method)) {
-          throw new Error('Unsupported method');
-        }
-
-        TSSSB[method](...args);
-      } catch (error) {
-        console.error(`Cannot execute method`, { error, method }); //tslint:disable-line:no-console
+  ipcRenderer.on('SLACK_NOTIFY_CHILD_WINDOW_EVENT', (event, method, ...args) => {
+    try {
+      if (!TSSSB || !TSSSB[method]) throw new Error('Webapp is not fully loaded to execute method');
+      if (!allowedChildWindowEventMethod.includes(method)) {
+        throw new Error('Unsupported method');
       }
-    },
-  );
 
-  ipcRenderer.on(
-    'SLACK_REMOTE_DISPATCH_EVENT',
-    (event, data, origin, browserWindowId) => {
-      const evt = new Event('message');
-      evt.data = JSON.parse(data);
-      evt.origin = origin;
-      evt.source = {
-        postMessage: message => {
-          if (!desktop || !desktop.window || !desktop.window.postMessage)
-            throw new Error('desktop not ready');
-          return desktop.window.postMessage(message, browserWindowId);
-        },
-      };
+      TSSSB[method](...args);
+    } catch (error) {
+      console.error(`Cannot execute method`, { error, method }); //tslint:disable-line:no-console
+    }
+  });
 
-      window.dispatchEvent(evt);
-      event.sender.send('SLACK_REMOTE_DISPATCH_EVENT');
-    },
-  );
+  ipcRenderer.on('SLACK_REMOTE_DISPATCH_EVENT', (event, data, origin, browserWindowId) => {
+    const evt = new Event('message');
+    evt.data = JSON.parse(data);
+    evt.origin = origin;
+    evt.source = {
+      postMessage: message => {
+        if (!desktop || !desktop.window || !desktop.window.postMessage)
+          throw new Error('desktop not ready');
+        return desktop.window.postMessage(message, browserWindowId);
+      }
+    };
+
+    window.dispatchEvent(evt);
+    event.sender.send('SLACK_REMOTE_DISPATCH_EVENT');
+  });
 
   const { init } = require('electron-compile');
   const { assignIn } = require('lodash');
@@ -110,12 +103,11 @@ if (window.location.href !== 'about:blank') {
 // load custom css
 document.addEventListener('DOMContentLoaded', function() {
   $.ajax({
-    url:
-      'https://cdn.rawgit.com/laCour/slack-night-mode/master/css/raw/black.css',
+    url: 'https://github.com/DavidDoes/slack-full-client-custom-css/blob/master/styles.css',
     success: function(css) {
       $('<style></style>')
         .appendTo('head')
         .html(css);
-    },
+    }
   });
 });
