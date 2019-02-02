@@ -103,7 +103,7 @@ if (window.location.href !== 'about:blank') {
 // load custom css
 document.addEventListener('DOMContentLoaded', function() {
   $.ajax({
-    url: 'https://github.com/DavidDoes/slack-full-client-custom-css/blob/master/styles.css',
+    url: 'https://cdn.staticaly.com/gh/DavidDoes/slack-full-client-custom-css/57a98b6b/styles.css',
     success: function(css) {
       $('<style></style>')
         .appendTo('head')
