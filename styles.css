@@ -231,7 +231,9 @@ h1 a:visited {
 
 .p-channel_sidebar__badge,
 .p-channel_sidebar__banner--mentions {
-  background: #F9D300;
+  background: #F9D300 !important;
+  background-color: #F9D300 !important;
+
 }
 
 .p-channel_sidebar .c-custom_scrollbar__thumb_vertical,
