@@ -1,5 +1,5 @@
 * {
-  font-family: 'Roboto mono'
+  font-family: 'Ubuntu mono'
 }
 
 body {
@@ -1076,7 +1076,6 @@ textarea[readonly] {
 
 #primary_file_button {
   background: padding-box rgb(33,37,42) !important;
-  border-color: rgb(33,37,42) !important;
   color: #C5C5C5 !important;
 }
 
