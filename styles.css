@@ -28,7 +28,7 @@ a:focus {
 }
 
 hr {
-  border-bottom: 1px solid #424242;
+  border-bottom: 1px solid rgb(33,37,42) !important;
   border-top: 1px solid rgb(33,37,42);
 }
 
@@ -122,7 +122,7 @@ h1 a:visited {
 }
 
 .monkey_scroll_bar {
-  background: #424242;
+  background: rgb(33,37,42) !important;
 }
 
 .monkey_scroll_handle_inner {
@@ -135,7 +135,7 @@ h1 a:visited {
 }
 
 #client-ui .monkey_scroll_bar {
-  background: #424242;
+  background: rgb(33,37,42) !important;
 }
 
 #client-ui .monkey_scroll_handle_inner {
@@ -144,7 +144,7 @@ h1 a:visited {
 }
 
 .c-scrollbar--monkey .c-scrollbar__track {
-  background: #424242;
+  background: rgb(33,37,42) !important;
 }
 
 .c-scrollbar--monkey .c-scrollbar__bar {
@@ -233,7 +233,7 @@ h1 a:visited {
 .p-channel_sidebar__banner--mentions {
   background: #D1B300 !important;
   background-color: #D1B300 !important;
-
+  color: rgb(33,37,42);
 }
 
 .p-channel_sidebar .c-custom_scrollbar__thumb_vertical,
@@ -537,7 +537,7 @@ input:disabled,
 input:disabled:active,
 select:disabled,
 textarea:disabled {
-  border-color: #424242 !important;
+  border-color: rgb(33,37,42) !important !important;
 }
 
 .no_touch input:hover,
@@ -568,7 +568,7 @@ legend small {
 
 .uneditable-input,
 .uneditable-textarea {
-  background-color: #424242;
+  background-color: rgb(33,37,42) !important;
   border: 1px solid #000;
   color: #C5C5C5;
 }
@@ -650,7 +650,7 @@ textarea[readonly] {
 }
 
 .form-actions {
-  background-color: #424242;
+  background-color: rgb(33,37,42) !important;
   border-top: 1px solid rgb(33,37,42);
 }
 
@@ -682,7 +682,7 @@ textarea[readonly] {
 }
 
 .btn.btn_border {
-  border: 2px solid #424242;
+  border: 2px solid rgb(33,37,42) !important;
 }
 
 .btn.disabled,
@@ -713,12 +713,12 @@ textarea[readonly] {
 }
 
 .btn.btn_outline.disabled {
-  background: #424242 !important;
+  background: rgb(33,37,42) !important !important;
   color: #949494 !important;
 }
 
 .btn.btn_outline.disabled:hover {
-  background: #424242 !important;
+  background: rgb(33,37,42) !important !important;
   color: #949494 !important;
 }
 
@@ -761,7 +761,7 @@ textarea[readonly] {
 }
 
 .btn_outline::after {
-  border: 1px solid #424242;
+  border: 1px solid rgb(33,37,42) !important;
 }
 
 .btn_outline.btn_transparent {
@@ -815,7 +815,7 @@ textarea[readonly] {
 }
 
 .btn-group.open .btn-primary.dropdown-toggle {
-  background-color: #424242;
+  background-color: rgb(33,37,42) !important;
 }
 
 .btn-group > .btn + .dropdown-toggle {
@@ -984,7 +984,7 @@ textarea[readonly] {
 }
 
 #message_edit_form.offline #primary_file_button {
-  border-color: #424242;
+  border-color: rgb(33,37,42) !important;
   color: #949494;
 }
 
@@ -1012,7 +1012,7 @@ textarea[readonly] {
 
 #msg_input {
   background: #545454;
-  border-color: #424242;
+  border-color: rgb(33,37,42) !important;
   color: #C5C5C5;
 }
 
@@ -1050,11 +1050,11 @@ textarea[readonly] {
 }
 
 #msg_input + #primary_file_button:not(:hover):not(.active) {
-  border-color: #424242;
+  border-color: rgb(33,37,42) !important;
 }
 
 #msg_input + #primary_file_button.focus-ring:not(:hover):not(.active) {
-  border-color: #424242;
+  border-color: rgb(33,37,42) !important;
 }
 
 #msg_input.offline:not(.pretend-to-be-online) {
@@ -1076,7 +1076,7 @@ textarea[readonly] {
 
 #primary_file_button {
   background: padding-box #545454;
-  border-color: #424242;
+  border-color: rgb(33,37,42) !important;
   color: #949494;
 }
 
@@ -1084,7 +1084,7 @@ textarea[readonly] {
 #primary_file_button.focus-ring,
 #primary_file_button:focus,
 #primary_file_button:hover {
-  background: #424242;
+  background: rgb(33,37,42) !important;
   border-color: rgb(33,37,42);
   color: #C5C5C5;
 }
@@ -1166,7 +1166,7 @@ textarea[readonly] {
 }
 
 .c-message .c-button {
-  border-color: #424242;
+  border-color: rgb(33,37,42) !important;
 }
 
 .c-message .c-button--outline {
@@ -1294,7 +1294,7 @@ textarea[readonly] {
 }
 
 .menu .menu_filter_container input.menu_filter {
-  border: 1px solid #424242;
+  border: 1px solid rgb(33,37,42) !important;
 }
 
 .menu .menu_filter_container input.menu_filter:focus {
@@ -1778,7 +1778,7 @@ textarea[readonly] {
   .results.unified
   .unified_autocomplete_item
   .token {
-  background-color: #424242;
+  background-color: rgb(33,37,42) !important;
   color: #C5C5C5;
 }
 
@@ -2479,7 +2479,7 @@ textarea[readonly] {
 }
 
 .c-search_autocomplete__suggestion_item--selected {
-  background-color: #424242;
+  background-color: rgb(33,37,42) !important;
 }
 
 .c-search_autocomplete__suggestion_item .token {
@@ -2785,7 +2785,7 @@ textarea[readonly] {
 }
 
 .c-message_list .c-scrollbar__bar {
-  background: #424242;
+  background: rgb(33,37,42) !important;
 }
 
 .c-virtual_list__item--focus:focus .c-message_list__focus_indicator {
@@ -5476,7 +5476,7 @@ a.c-member_slug:hover,
 .c-member_slug--link:hover,
 .c-mrkdwn__subteam--link.active,
 .c-mrkdwn__subteam--link:hover {
-  background: #424242;
+  background: rgb(33,37,42) !important;
   color: #C5C5C5;
 }
 
@@ -6189,7 +6189,7 @@ span.match {
 }
 
 #disabled_members_tab a:hover {
-  background: #424242;
+  background: rgb(33,37,42) !important;
   color: #c7c7c7;
 }
 
@@ -6515,7 +6515,7 @@ ts-thread .view_all_replies_container:hover {
 }
 
 .p-emoji_picker__group_tabs {
-  border-bottom-color: #424242;
+  border-bottom-color: rgb(33,37,42) !important;
 }
 
 .p-emoji_picker__group_tab {
@@ -6529,7 +6529,7 @@ ts-thread .view_all_replies_container:hover {
 
 .p-emoji_picker__group_tab--active {
   background: #545454;
-  border-bottom-color: #424242;
+  border-bottom-color: rgb(33,37,42) !important;
   color: #C5C5C5;
 }
 
@@ -6733,7 +6733,7 @@ input[type='text'].p-emoji_picker__input:focus {
 .c-reaction_add:hover,
 .c-member_slug.active,
 .c-member_slug:hover {
-  background: #424242;
+  background: rgb(33,37,42) !important;
 }
 
 .rxn.active .emoji_rxn_count,
@@ -7536,7 +7536,7 @@ a.c-member_slug--mention:hover {
 }
 
 #fs_modal.prefs_modal #prefs_sidebar #prefs_themes_customize .colpick {
-  background: #424242;
+  background: rgb(33,37,42) !important;
   border: 1px solid rgb(33,37,42);
 }
 
@@ -8213,7 +8213,7 @@ ts-jumper ol:not(.keyboard_active) li:hover ts-icon {
 .yolk_orange_bg,
 .burnt_violet_bg,
 .flexpane_grey_bg {
-  background-color: #424242 !important;
+  background-color: rgb(33,37,42) !important !important;
 }
 
 .sky_blue_bg,
@@ -8574,11 +8574,11 @@ a.two_factor_choice:link:hover .two_factor_link {
 }
 
 .admin_list_item .pill.group {
-  background: #424242;
+  background: rgb(33,37,42) !important;
 }
 
 .admin_list_item .two_factor_auth_badge:hover {
-  background: #424242;
+  background: rgb(33,37,42) !important;
 }
 
 .admin_list_item .inline_email:hover,
@@ -9910,7 +9910,7 @@ a.splash_interactive__window_link {
 
 #page .service_card {
   background-color: rgb(33,37,42);
-  border: 1px solid #424242;
+  border: 1px solid rgb(33,37,42) !important;
 }
 
 .app_card,
@@ -10352,7 +10352,7 @@ nav .comments {
 }
 
 nav .space_buttons .btn_outline {
-  background-color: #424242;
+  background-color: rgb(33,37,42) !important;
 }
 
 nav .space_buttons .btn_outline::after {
@@ -10489,7 +10489,7 @@ comments {
 }
 
 #space_alert .btn_outline.btn_transparent {
-  background-color: #424242 !important;
+  background-color: rgb(33,37,42) !important !important;
   color: #C5C5C5 !important;
 }
 
@@ -10579,7 +10579,7 @@ comments {
 
 #shortcuts_spaces_dialog .col .keyboard {
   background-color: #828282;
-  border-bottom: 2px solid #424242;
+  border-bottom: 2px solid rgb(33,37,42) !important;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
   color: #C5C5C5;
 }
@@ -10714,7 +10714,7 @@ comments {
 }
 
 .para_menu .options a.active {
-  background-color: #424242;
+  background-color: rgb(33,37,42) !important;
   border: 1px solid rgb(33,37,42);
 }
 
