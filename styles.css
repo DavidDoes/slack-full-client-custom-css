@@ -231,7 +231,7 @@ h1 a:visited {
 
 .p-channel_sidebar__badge,
 .p-channel_sidebar__banner--mentions {
-  background: #bf360c;
+  background: #F9D300;
 }
 
 .p-channel_sidebar .c-custom_scrollbar__thumb_vertical,
@@ -326,7 +326,7 @@ h1 a:visited {
 }
 
 .channels_list_holder .unread_highlights {
-  background: #bf360c;
+  background: #F9D300;
   color: #C5C5C5;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
 }
@@ -697,7 +697,7 @@ textarea[readonly] {
 
 .btn.btn_outline.btn_danger,
 .btn.btn_outline.btn_warning {
-  background-color: #bf360c !important;
+  background-color: #F9D300 !important;
   color: #C5C5C5 !important;
 }
 
@@ -706,8 +706,8 @@ textarea[readonly] {
 .btn.btn_outline.btn_warning:focus,
 .btn.btn_outline.btn_warning:hover {
   background-color: rgb(33,37,42) !important;
-  border-color: #bf360c !important;
-  color: #bf360c !important;
+  border-color: #F9D300 !important;
+  color: #F9D300 !important;
 }
 
 .btn.btn_outline.disabled {
@@ -731,7 +731,7 @@ textarea[readonly] {
 }
 
 .btn.btn_attachment.btn_danger {
-  border-color: #bf360c;
+  border-color: #F9D300;
 }
 
 .btn.btn_attachment.btn_danger:hover,
@@ -828,7 +828,7 @@ textarea[readonly] {
 
 .btn_warning,
 .btn_danger {
-  background-color: #bf360c !important;
+  background-color: #F9D300 !important;
 }
 
 .btn-danger .caret,
@@ -1160,7 +1160,7 @@ textarea[readonly] {
 }
 
 .c-message__editor__warning {
-  color: #bf360c;
+  color: #F9D300;
 }
 
 .c-message .c-button {
@@ -1341,7 +1341,7 @@ textarea[readonly] {
 }
 
 .menu ul li a.delete_link {
-  color: #bf360c;
+  color: #F9D300;
 }
 
 .menu ul li a:not(.inline_menu_link) {
@@ -1363,7 +1363,7 @@ textarea[readonly] {
 }
 
 .menu ul li.highlighted a.delete_link {
-  color: #bf360c;
+  color: #F9D300;
 }
 
 .menu ul li.disabled a {
@@ -1397,7 +1397,7 @@ textarea[readonly] {
 }
 
 .menu:not(.keyboard_active) ul li:hover:not(.disabled) a.delete_link {
-  color: #bf360c;
+  color: #F9D300;
 }
 
 .menu input {
@@ -1531,7 +1531,7 @@ textarea[readonly] {
 #autocomplete_menu.search_menu li.highlighted .delete_btn:hover,
 #autocomplete_menu.search_menu.unified li.highlighted .delete_btn:focus,
 #autocomplete_menu.search_menu.unified li.highlighted .delete_btn:hover {
-  color: #bf360c;
+  color: #F9D300;
 }
 
 #autocomplete_menu.search_menu li.highlighted .muted_text,
@@ -1739,7 +1739,7 @@ textarea[readonly] {
   .results.unified:not(.keyboard_active)
   li:hover
   .delete_btn:hover {
-  color: #bf360c;
+  color: #F9D300;
 }
 
 #autocomplete_menu.search_menu .muted_text,
@@ -2240,7 +2240,7 @@ textarea[readonly] {
 }
 
 .channel_title .channel_name_container .muted_icon:hover {
-  color: #bf360c;
+  color: #F9D300;
 }
 
 #im_title.away {
@@ -2278,7 +2278,7 @@ textarea[readonly] {
 }
 
 #flex_menu_toggle.unread #help_icon_circle_count {
-  background-color: #bf360c;
+  background-color: #F9D300;
   color: #fff;
 }
 
@@ -2306,7 +2306,7 @@ textarea[readonly] {
 }
 
 #recent_mentions_toggle:hover {
-  color: #bf360c;
+  color: #F9D300;
 }
 
 #rxn_toast_div {
@@ -2581,7 +2581,7 @@ textarea[readonly] {
 }
 
 .c-message--pinned .c-message__label__icon {
-  color: #bf360c;
+  color: #F9D300;
 }
 
 .c-message--custom_response .c-message__label__icon,
@@ -3854,7 +3854,7 @@ ts-message .reply_bar:hover {
 }
 
 #connection_div {
-  background: #bf360c;
+  background: #F9D300;
 }
 
 #archives_return {
@@ -3863,7 +3863,7 @@ ts-message .reply_bar:hover {
 }
 
 #archives_return.warning {
-  background: #bf360c;
+  background: #F9D300;
 }
 
 #archives_return a {
@@ -4093,7 +4093,7 @@ code a.app_preview_link {
 }
 
 .cm-negative {
-  color: #bf360c;
+  color: #F9D300;
 }
 
 .cm-positive {
@@ -4102,7 +4102,7 @@ code a.app_preview_link {
 
 .cm-invalidchar,
 .cm-s-default .cm-error {
-  color: #bf360c;
+  color: #F9D300;
 }
 
 div.CodeMirror span.CodeMirror-matchingbracket {
@@ -4110,7 +4110,7 @@ div.CodeMirror span.CodeMirror-matchingbracket {
 }
 
 div.CodeMirror span.CodeMirror-nonmatchingbracket {
-  color: #bf360c;
+  color: #F9D300;
 }
 
 .CodeMirror-matchingtag {
@@ -4186,7 +4186,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 }
 
 .sssh-error {
-  color: #bf360c;
+  color: #F9D300;
 }
 
 .sssh-qualifier {
@@ -4391,7 +4391,7 @@ ts-thread .thread_header .thread_action_btns button {
 }
 
 ts-thread .new_reply_indicator .blue_dot {
-  color: #bf360c;
+  color: #F9D300;
 }
 
 #convo_tab .thread_participants,
@@ -4822,7 +4822,7 @@ ts-thread .thread_participants {
 }
 
 .pinned_item.delete_mode {
-  border-color: #bf360c !important;
+  border-color: #F9D300 !important;
 }
 
 .p-channel_insights .c-member__title {
@@ -5166,7 +5166,7 @@ html.no_touch a.filetype_button_web:hover .file_title {
 }
 
 .unshare_link i.ts_icon_minus_circle_small:hover::before {
-  color: #bf360c !important;
+  color: #F9D300 !important;
 }
 
 .snippet_preview pre {
@@ -7210,7 +7210,7 @@ a.c-member_slug--mention:hover {
 }
 
 #im_browser .im_browser_row .im_unread_cnt {
-  background: #bf360c;
+  background: #F9D300;
   color: #C5C5C5;
 }
 
@@ -7243,7 +7243,7 @@ a.c-member_slug--mention:hover {
 }
 
 #im_browser_tokens .member_token.ra {
-  background: #bf360c;
+  background: #F9D300;
 }
 
 .fs_modal_file_viewer_header {
@@ -7422,7 +7422,7 @@ a.c-member_slug--mention:hover {
 .admin_invite_row .hide_custom_message:hover,
 .admin_invites_custom_message_container .delete_row:hover,
 .admin_invites_custom_message_container .hide_custom_message:hover {
-  color: #bf360c;
+  color: #F9D300;
 }
 
 .admin_invite_row.delete_highlight,
@@ -7539,7 +7539,7 @@ a.c-member_slug--mention:hover {
 }
 
 #fs_modal.prefs_modal #prefs_sidebar #prefs_sidebar_theme::after {
-  background: #bf360c;
+  background: #F9D300;
   border-radius: 3px;
   content: 'Light sidebar themes (e.g. Hoth) will break this Stylish theme.';
   display: block;
@@ -7589,7 +7589,7 @@ a.c-member_slug--mention:hover {
 }
 
 #fs_modal.prefs_modal .badge_example {
-  background: #bf360c;
+  background: #F9D300;
 }
 
 #fs_modal.prefs_modal .message_theme_preview {
@@ -7712,8 +7712,8 @@ a.c-member_slug--mention:hover {
 }
 
 #edit_team_profile_edit .row.option_row.show_remove_action i:hover {
-  background-color: #bf360c;
-  border-color: #bf360c !important;
+  background-color: #F9D300;
+  border-color: #F9D300 !important;
   color: #C5C5C5;
 }
 
@@ -7837,7 +7837,7 @@ ts-jumper ol li ts-icon {
 }
 
 ts-jumper ol li .unread_count {
-  background: #bf360c;
+  background: #F9D300;
   color: #C5C5C5;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
 }
@@ -8192,7 +8192,7 @@ ts-jumper ol:not(.keyboard_active) li:hover ts-icon {
 .mustard_yellow,
 .candy_red_on_hover:hover,
 .moscow_red_on_hover:hover {
-  color: #bf360c !important;
+  color: #F9D300 !important;
 }
 
 .seafoam_green {
@@ -8200,7 +8200,7 @@ ts-jumper ol:not(.keyboard_active) li:hover ts-icon {
 }
 
 .candy_red_bg {
-  background-color: #bf360c !important;
+  background-color: #F9D300 !important;
 }
 
 .off_white_bg,
@@ -8549,7 +8549,7 @@ a.two_factor_choice:link:hover .two_factor_link {
 }
 
 #channel_specific_settings .revert_to_default:hover {
-  color: #bf360c;
+  color: #F9D300;
 }
 
 .admin_list_item {
@@ -8590,7 +8590,7 @@ a.two_factor_choice:link:hover .two_factor_link {
 }
 
 .admin_list_item.invite_item.bouncing .email {
-  color: #bf360c;
+  color: #F9D300;
 }
 
 .admin_list_item.error,
@@ -8701,7 +8701,7 @@ table tr:first-child th:not(:only-of-type) {
 }
 
 .slackbot_response_fieldset .delete_response:hover {
-  color: #bf360c;
+  color: #F9D300;
 }
 
 .author_cell {
@@ -8826,7 +8826,7 @@ table tr:first-child th:not(:only-of-type) {
 }
 
 .ent_alert_page.ent_alert_error {
-  background: #bf360c;
+  background: #F9D300;
 }
 
 .ent_alert_page.ent_alert_success {
@@ -8900,8 +8900,8 @@ table tr:first-child th:not(:only-of-type) {
 }
 
 .ent_callout__meter_bar_fill--limit_reached {
-  background: #bf360c;
-  border-color: #bf360c;
+  background: #F9D300;
+  border-color: #F9D300;
 }
 
 .ent_callout__meter_bar_gleam {
@@ -9223,7 +9223,7 @@ a.ent_data_table__data_link {
 }
 
 .enterprise .btn.candy_red {
-  color: #bf360c !important;
+  color: #F9D300 !important;
 }
 
 .enterprise_analytics {
@@ -9312,7 +9312,7 @@ html.no_touch .action_cog:hover i {
 }
 
 .help_pages.help_pages .c-form__container .c-form__feedback {
-  color: #bf360c;
+  color: #F9D300;
 }
 
 .help_pages.help_pages .c-form__input,
@@ -9342,7 +9342,7 @@ html.no_touch .action_cog:hover i {
 }
 
 .help_pages.help_pages .c-form__notice.is-error {
-  border-left-color: #bf360c;
+  border-left-color: #F9D300;
 }
 
 .help_pages.help_pages .c-nav--footer {
@@ -9521,7 +9521,7 @@ body.api .scopes_to_methods code {
 }
 
 body.api .scopes_to_methods .selected code {
-  color: #bf360c;
+  color: #F9D300;
 }
 
 body.api .scopes_to_methods li {
@@ -9634,8 +9634,8 @@ body.api span.btn {
 
 body.api span.deprecation,
 body.api span.warning {
-  background-color: #bf360c;
-  border-color: #bf360c;
+  background-color: #F9D300;
+  border-color: #F9D300;
 }
 
 nav#api_nav {
@@ -9652,7 +9652,7 @@ nav#api_nav {
 }
 
 #api_nav .footer_nav .footer_signature {
-  color: #bf360c;
+  color: #F9D300;
 }
 
 .api_articles .api_articles_section {
@@ -9690,7 +9690,7 @@ nav#api_nav {
 .tab_menu .tab.active,
 .tab_menu .tab:active,
 .tab_menu .tab:focus {
-  box-shadow: inset 0 -4px 0 0 #bf360c;
+  box-shadow: inset 0 -4px 0 0 #F9D300;
   color: #C5C5C5;
 }
 
@@ -10061,7 +10061,7 @@ a.c-tabs__tab--plastic:focus {
 }
 
 .p-detail_dangerous_scope {
-  border-left-color: #bf360c;
+  border-left-color: #F9D300;
   border-right-color: #545454;
 }
 
@@ -10175,7 +10175,7 @@ table.gray_header_border tr:first-child th:not(:only-of-type) {
 }
 
 .c-oauth_scope_info__spacer_icon {
-  color: #bf360c;
+  color: #F9D300;
 }
 
 .c-oauth_scope_info__dangerous_scopes,
@@ -10184,7 +10184,7 @@ table.gray_header_border tr:first-child th:not(:only-of-type) {
 }
 
 .c-oauth_scope_info__dangerous_scopes {
-  border-left-color: #bf360c;
+  border-left-color: #F9D300;
   border-right-color: #545454;
   border-top-color: #545454;
 }
@@ -10384,7 +10384,7 @@ nav #space_status {
 }
 
 nav #space_status.slightly_concerned {
-  color: #bf360c;
+  color: #F9D300;
 }
 
 nav #edit_status {
@@ -10392,7 +10392,7 @@ nav #edit_status {
 }
 
 nav .comments_open.unread span.notif {
-  background-color: #bf360c;
+  background-color: #F9D300;
   box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.15);
 }
 
@@ -10467,7 +10467,7 @@ comments {
 }
 
 #space_alert.error {
-  background-color: #bf360c;
+  background-color: #F9D300;
 }
 
 #space_alert span#space_alert_text {
@@ -10504,7 +10504,7 @@ comments {
 }
 
 #space_find_bar #space_find_info.no_matches {
-  color: #bf360c;
+  color: #F9D300;
 }
 
 #space_find_bar #space_find_next .ts_icon {
