@@ -1,6 +1,6 @@
 ![screenshot](screenshot.png)
 
-#How to Customize Slack
+# How to Customize Slack
 not just your sidebar
 
 After lots and lots of searching, I have yet to find a reliable way to modify the appearance of the Slack client. There are several methods out there for hacking the Slack client into submission, but instructions on how to do this are pretty sparse. I’ll be attempting to mend that.
@@ -9,13 +9,13 @@ First of all, a **Disclaimer**: The changes you make will not persists between s
 
 Let’s get this started.
 
-##What You'll Need
+## What You'll Need
 
 - Text Editor such as VS Code, Sublime, Atom, etc.
 - GitHub or other version control service account
 - Slack
 
-##Here we go...
+## Here we go...
 
 1. In Finder, select **Go > Go to Folder…**
 
@@ -67,7 +67,7 @@ $.get(cssURI).then(function(css) {
 });
 ```
 
-##Wrap up
+## Wrap up
 
 If you’d like to use the theme I created, picture above, use this:
 
