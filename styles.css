@@ -107,7 +107,7 @@ h1 a:visited {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(33,37,42) !important !important;
+  background: rgb(33,37,42) !important;
   border-left-color: rgb(33,37,42) !important;
   border-right-color: rgb(33,37,42) !important;
   color: rgb(33,37,42) !important;
@@ -209,12 +209,12 @@ h1 a:visited {
 
 .p-channel_sidebar__channel--selected,
 .p-channel_sidebar__link--selected {
-  background: rgb(33,37,42) !important !important;
+  background: rgb(33,37,42) !important;
 }
 
 .p-channel_sidebar__channel--selected:hover,
 .p-channel_sidebar__link--selected:hover {
-  background: rgb(33,37,42) !important !important;
+  background: rgb(33,37,42) !important;
 }
 
 .p-channel_sidebar__channel--selected::before,
@@ -324,7 +324,7 @@ h1 a:visited {
 .channels_list_holder .group_close,
 .channels_list_holder .im_close,
 .channels_list_holder .mpim_close {
-  color: #C5C5C5 !important !important;
+  color: #C5C5C5 !important;
 }
 
 .channels_list_holder .unread_highlights {
@@ -340,7 +340,7 @@ h1 a:visited {
 
 #channel_list_invites_link {
   border-bottom: 1px dotted #C5C5C5 !important;
-  color: #C5C5C5 !important !important;
+  color: #C5C5C5 !important;
   font-size: 0.9rem;
 }
 
@@ -537,7 +537,7 @@ input:disabled,
 input:disabled:active,
 select:disabled,
 textarea:disabled {
-  border-color: rgb(33,37,42) !important !important;
+  border-color: rgb(33,37,42) !important;
 }
 
 .no_touch input:hover,
@@ -646,7 +646,7 @@ input[disabled],
 input[readonly],
 textarea[disabled],
 textarea[readonly] {
-  background-color: rgb(33,37,42) !important !important;
+  background-color: rgb(33,37,42) !important;
 }
 
 .form-actions {
@@ -713,13 +713,13 @@ textarea[readonly] {
 }
 
 .btn.btn_outline.disabled {
-  background: rgb(33,37,42) !important !important;
-  color: #C5C5C5 !important !important;
+  background: rgb(33,37,42) !important;
+  color: #C5C5C5 !important;
 }
 
 .btn.btn_outline.disabled:hover {
-  background: rgb(33,37,42) !important !important;
-  color: #C5C5C5 !important !important;
+  background: rgb(33,37,42) !important;
+  color: #C5C5C5 !important;
 }
 
 .btn.btn_attachment {
@@ -757,7 +757,7 @@ textarea[readonly] {
 
 .btn_outline {
   background: rgb(33,37,42);
-  color: #C5C5C5 !important !important;
+  color: #C5C5C5 !important;
 }
 
 .btn_outline::after {
@@ -947,18 +947,18 @@ textarea[readonly] {
   .lfs_value
   .lfs_item.selected
   .ts_icon:not(.presence_icon) {
-  color: #C5C5C5 !important !important;
+  color: #C5C5C5 !important;
 }
 
 #select_share_channels .lazy_filter_select .lfs_item {
-  color: #C5C5C5 !important !important;
+  color: #C5C5C5 !important;
 }
 
 #select_share_channels
   .lazy_filter_select
   .lfs_item
   .ts_icon:not(.presence_icon) {
-  color: #C5C5C5 !important !important;
+  color: #C5C5C5 !important;
 }
 
 #message_edit_form .emo_menu {
@@ -1305,7 +1305,7 @@ textarea[readonly] {
 }
 
 .menu .menu_filter_container .icon_close {
-  color: #C5C5C5 !important !important;
+  color: #C5C5C5 !important;
 }
 
 .menu #menu_header .menu_simple_header {
@@ -1882,7 +1882,7 @@ textarea[readonly] {
 }
 
 .pickmeup .pmu-instance .pmu-today-border {
-  border: 2px solid rgb(33,37,42) !important !important;
+  border: 2px solid rgb(33,37,42) !important;
   color: #828282 !important;
 }
 
@@ -2513,7 +2513,7 @@ textarea[readonly] {
 .c-mrkdwn__subteam--mention,
 .c-mrkdwn__subteam--mention:hover,
 .mention_yellow_bg {
-  color: #C5C5C5 !important !important;
+  color: #C5C5C5 !important;
 }
 
 .c-message:hover .c-message__broadcast_preamble_outer,
@@ -2829,13 +2829,13 @@ ts-message:hover.automated .message_body {
 ts-message.active .meta,
 ts-message.message--focus .meta,
 ts-message:hover .meta {
-  color: #C5C5C5 !important !important;
+  color: #C5C5C5 !important;
 }
 
 ts-message.active .meta.msg_inline_file_preview_toggler a,
 ts-message.message--focus .meta.msg_inline_file_preview_toggler a,
 ts-message:hover .meta.msg_inline_file_preview_toggler a {
-  color: #C5C5C5 !important !important;
+  color: #C5C5C5 !important;
 }
 
 ts-message.is_pinned {
@@ -2978,7 +2978,7 @@ ts-message .meta.msg_inline_img_toggler .member,
 ts-message .meta.msg_inline_img_toggler .service_link,
 ts-message .meta.msg_inline_file_preview_toggler .member,
 ts-message .meta.msg_inline_file_preview_toggler .service_link {
-  color: #C5C5C5 !important !important;
+  color: #C5C5C5 !important;
 }
 
 ts-message .meta.msg_inline_img_toggler .msg_inline_media_toggler,
@@ -2987,7 +2987,7 @@ ts-message .meta.msg_inline_img_toggler a,
 ts-message .meta.msg_inline_file_preview_toggler .msg_inline_media_toggler,
 ts-message .meta.msg_inline_file_preview_toggler .ts_icon_dropbox,
 ts-message .meta.msg_inline_file_preview_toggler a {
-  color: #C5C5C5 !important !important;
+  color: #C5C5C5 !important;
 }
 
 ts-message .pinned_item_message_header {
@@ -3002,7 +3002,7 @@ ts-message .mention {
 ts-message .internal_member_link {
   background: rgb(33,37,42) !important;
   border: 0;
-  color: #C5C5C5 !important !important;
+  color: #C5C5C5 !important;
 }
 
 ts-message .internal_member_link:hover {
@@ -3383,7 +3383,7 @@ ts-mention {
 }
 
 .attachment_group .attachment_source span {
-  color: #C5C5C5 !important !important;
+  color: #C5C5C5 !important;
 }
 
 .attachment_group
@@ -3517,14 +3517,14 @@ ts-mention {
 .meta.msg_inline_img_toggler,
 .dense_meta.msg_inline_file_preview_toggler,
 .dense_meta.msg_inline_img_toggler {
-  color: #C5C5C5 !important !important;
+  color: #C5C5C5 !important;
 }
 
 .meta.msg_inline_file_preview_toggler a[data-file-id],
 .meta.msg_inline_img_toggler a[data-file-id],
 .dense_meta.msg_inline_file_preview_toggler a[data-file-id],
 .dense_meta.msg_inline_img_toggler a[data-file-id] {
-  color: #C5C5C5 !important !important;
+  color: #C5C5C5 !important;
 }
 
 .meta.msg_inline_file_preview_toggler:hover,
@@ -3578,7 +3578,7 @@ ts-mention {
 
 .meta.meta_feature_fix_files .member,
 .dense_meta.meta_feature_fix_files .member {
-  color: #C5C5C5 !important !important;
+  color: #C5C5C5 !important;
 }
 
 .delete_attachment_link {
@@ -4002,7 +4002,7 @@ code a.app_preview_link {
 }
 
 .CodeMirror-linenumber {
-  color: #C5C5C5 !important !important;
+  color: #C5C5C5 !important;
 }
 
 .CodeMirror-guttermarker {
@@ -4803,7 +4803,7 @@ ts-thread .thread_participants {
 }
 
 .pinned_item .pin_member_name a {
-  color: #C5C5C5 !important !important;
+  color: #C5C5C5 !important;
 }
 
 .pinned_item .pin_metadata {
@@ -5024,7 +5024,7 @@ html.no_touch a.filetype_button_web:hover .file_title {
 }
 
 .file_header .member {
-  color: #C5C5C5 !important !important;
+  color: #C5C5C5 !important;
 }
 
 .file_header .title {
@@ -5041,7 +5041,7 @@ html.no_touch a.filetype_button_web:hover .file_title {
 
 .flexpane_file_title .member,
 .flexpane_file_title .service_link {
-  color: #C5C5C5 !important !important;
+  color: #C5C5C5 !important;
 }
 
 .flexpane_file_title .title a,
@@ -5055,7 +5055,7 @@ html.no_touch a.filetype_button_web:hover .file_title {
 }
 
 .file_actions_cog {
-  color: #C5C5C5 !important !important;
+  color: #C5C5C5 !important;
 }
 
 .file_actions_cog:hover {
@@ -5159,11 +5159,11 @@ html.no_touch a.filetype_button_web:hover .file_title {
 }
 
 .unshare_link {
-  color: #C5C5C5 !important !important;
+  color: #C5C5C5 !important;
 }
 
 .unshare_link i::before {
-  color: #C5C5C5 !important !important;
+  color: #C5C5C5 !important;
 }
 
 .unshare_link i.ts_icon_minus_circle_small:hover::before {
@@ -5599,7 +5599,7 @@ span.match {
 
 .search_segmented_control {
   border-color: rgb(33,37,42);
-  color: #C5C5C5 !important !important;
+  color: #C5C5C5 !important;
 }
 
 .search_segmented_control:hover {
@@ -5695,7 +5695,7 @@ span.match {
 
 .top_results_search_message_result:hover {
   border-color: rgba(130, 130, 130, 0.6) !important;
-  border-top: 2px solid rgb(33,37,42) !important !important;
+  border-top: 2px solid rgb(33,37,42) !important;
 }
 
 .top_results_search_message_result:first-child {
@@ -5984,7 +5984,7 @@ span.match {
 
 #member_preview_scroller a.member_action_button,
 #team_list a.member_action_button {
-  color: #C5C5C5 !important !important;
+  color: #C5C5C5 !important;
 }
 
 #member_preview_scroller a.member_action_button:hover,
@@ -6004,7 +6004,7 @@ span.match {
 #member_preview_web_container .member_data_table a,
 #team_list .member_data_table a,
 .menu_member_header .member_data_table a {
-  color: #C5C5C5 !important !important;
+  color: #C5C5C5 !important;
 }
 
 #member_preview_scroller .member_data_table a:hover,
@@ -6220,7 +6220,7 @@ span.match {
 #client-ui .searchable_member_list .team_list_item:hover,
 #client-ui #team_list .team_list_item:hover,
 #member_preview_scroller .team_list_item:hover {
-  border-color: rgb(33,37,42) !important !important;
+  border-color: rgb(33,37,42) !important;
 }
 
 #client-ui .searchable_member_list .team_list_item {
@@ -6287,7 +6287,7 @@ span.match {
   .reply_broadcast_buttons_container
   .reply_broadcast_label_container
   ts-icon.ts_icon_question_circle {
-  color: #C5C5C5 !important !important;
+  color: #C5C5C5 !important;
 }
 
 #reply_container .reply_limited_in_general,
@@ -7052,7 +7052,7 @@ a.c-member_slug--mention:hover {
 .channel_prefs_notifications_table__large_cell,
 .channel_prefs_notifications_table__small_cell,
 .channel_prefs_notifications_table__row_title {
-  border-bottom-color: rgb(33,37,42) !important !important;
+  border-bottom-color: rgb(33,37,42) !important;
 }
 
 .channel_prefs__muting_checkbox_label {
@@ -7117,7 +7117,7 @@ a.c-member_slug--mention:hover {
 
 .channel_invite_member .name_container .not_in_token,
 .channel_invite_member_small .name_container .not_in_token {
-  color: #C5C5C5 !important !important;
+  color: #C5C5C5 !important;
 }
 
 .channel_invite_member .invite_user_group_avatar,
@@ -7224,7 +7224,7 @@ a.c-member_slug--mention:hover {
   .im_browser_row:not(.disabled_dm):hover,
 #im_browser .im_browser_row.highlighted {
   background: #000 !important;
-  border: 1px solid rgb(33,37,42) !important !important;
+  border: 1px solid rgb(33,37,42) !important;
 }
 
 #im_browser_tokens {
@@ -8181,11 +8181,11 @@ ts-jumper ol:not(.keyboard_active) li:hover ts-icon {
 .sk_dark_grey,
 .subtle_silver,
 .old_petunia_grey {
-  color: #C5C5C5 !important !important;
+  color: #C5C5C5 !important;
 }
 
 .clear_blue {
-  color: #C5C5C5 !important !important;
+  color: #C5C5C5 !important;
 }
 
 .moscow_red,
@@ -8212,13 +8212,13 @@ ts-jumper ol:not(.keyboard_active) li:hover ts-icon {
 .yolk_orange_bg,
 .burnt_violet_bg,
 .flexpane_grey_bg {
-  background-color: rgb(33,37,42) !important !important;
+  background-color: rgb(33,37,42) !important;
 }
 
 .sky_blue_bg,
 .clear_blue_bg,
 .seafoam_green_bg {
-  background-color: rgb(33,37,42) !important !important;
+  background-color: rgb(33,37,42) !important;
 }
 
 .sk_black {
@@ -8678,7 +8678,7 @@ table.billing tr:hover td {
 
 .link_invoice_id,
 .link_statement_id {
-  color: #C5C5C5 !important !important;
+  color: #C5C5C5 !important;
 }
 
 .billing_invoice tbody tbody tr {
@@ -9027,7 +9027,7 @@ a.ent_data_table__data_link {
 }
 
 .ent_graph__legend_item--defocus {
-  fill: #C5C5C5 !important !important;
+  fill: #C5C5C5 !important;
 }
 
 .ent_graph__legend_text {
@@ -9261,7 +9261,7 @@ a.ent_data_table__data_link {
 }
 
 .file_actions_cog {
-  color: #C5C5C5 !important !important;
+  color: #C5C5C5 !important;
 }
 
 .file_actions_cog:hover {
@@ -9891,7 +9891,7 @@ a.splash_interactive__window_link {
 }
 
 #page .tag:hover {
-  background-color: rgb(33,37,42) !important !important;
+  background-color: rgb(33,37,42) !important;
 }
 
 #page .app_desc_btn {
@@ -10402,7 +10402,7 @@ nav .comments_close {
 }
 
 nav .comments_close:hover::before {
-  color: #C5C5C5 !important !important;
+  color: #C5C5C5 !important;
 }
 
 ts-space header {
@@ -10488,7 +10488,7 @@ comments {
 }
 
 #space_alert .btn_outline.btn_transparent {
-  background-color: rgb(33,37,42) !important !important;
+  background-color: rgb(33,37,42) !important;
   color: #C5C5C5 !important;
 }
 
@@ -10588,7 +10588,7 @@ comments {
 }
 
 #shortcuts_spaces_dialog .close .ts_icon::before {
-  color: #C5C5C5 !important !important;
+  color: #C5C5C5 !important;
 }
 
 .textstyle_menu .arrow-shadow::after {
